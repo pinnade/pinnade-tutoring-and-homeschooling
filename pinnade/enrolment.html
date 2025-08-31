@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pinnade Tutoring and Homechooling - Best Homeschool & Tuition Centre | IGCSE, A-Level, CBC, IB Programs</title>
+  <meta name="description" content="Leading homeschool and tuition centre offering IGCSE, A-Level, CBC, IB programs. Expert tutoring for Cambridge, Edexcel, KCSE, KCPE exams. Quality education tailored for success.">
+  <meta name="keywords" content="homeschool, tuition centre, IGCSE tutoring, A-level tuition, CBC curriculum, IB diploma, Cambridge exams, Edexcel, KCSE, KCPE, private tutoring, online learning">
+
+  <!-- Favicons -->
+  <link href="assets/img/log.jpg" rel="icon">
+  <link href="assets/img/log.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/" rel="preconnect">
+  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .icon-box-orange {
+      background: linear-gradient(135deg, #5F3A42, #5F3A42);
+      color: rgb(212, 205, 205);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow:  rgb(214, 173, 173);
+      transition: all 0.3s ease;
+    }
+    
+    .icon-box-pink {
+      background: linear-gradient(135deg, #e91e63, #f06292);
+      color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgb(214, 173, 173);
+      transition: all 0.3s ease;
+    }
+    
+    .icon-box-blue {
+      background: linear-gradient(135deg, white, #3b82f6);
+      color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px  rgb(214, 173, 173);
+      transition: all 0.3s ease;
+    }
+    
+    .icon-box-orange:hover,
+    .icon-box-pink:hover,
+    .icon-box-blue:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px  rgb(214, 173, 173);
+    }
+    
+    .icon-box-orange i,
+    .icon-box-pink i,
+    .icon-box-blue i {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      display: block;
+    }
+    
+    .icon-box-orange h4,
+    .icon-box-pink h4,
+    .icon-box-blue h4 {
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    /* Enhanced welcome section visibility */
+    .welcome {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgb(214, 173, 173);
+      margin-bottom: 30px;
+    }
+    
+    .welcome h2 {
+      color: #5F3A42 !important;
+      font-weight: 700;
+      text-shadow: none;
+    }
+    
+    .welcome p {
+      color: #5F3A42 !important;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    /* Button styling */
+    .more-btn {
+      color: #fff;
+      background: linear-gradient(135deg, #3498db, #2980b9);
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin-right: 15px;
+    }
+    
+    .more-btn:hover {
+      background: linear-gradient(135deg, #2980b9, #21618c);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px  rgb(214, 173, 173);
+      color: #fff;
+    }
+
+    .enroll-btn {
+      color: #fff;
+      background: linear-gradient(135deg, #5F3A42, #5F3A42);
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+      background-color:#5F3A42;
+    }
+    
+    .enroll-btn:hover {
+      background: linear-gradient(135deg, #5F3A42, #5F3A42);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgb(214, 173, 173);
+      color: #fff;
+    }
+
+    /* Home button styling */
+    .home-btn {
+      color: #fff;
+      background: linear-gradient(135deg , #5F3A42, #5F3A42);
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin: 2rem auto;
+      text-align: center;
+      max-width: 200px;
+    }
+    
+    .home-btn:hover {
+      background: linear-gradient(135deg, #5F3A42, #5F3A42);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px #86656c;
+      color: #fff;
+    }
+
+    .home-btn-container {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index-2.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/log.jpg" alt="pinnade logo">
+          <h1 class="sitename" style="color: #5F3A42;">Pinnade</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index-2.html#home">Home<br></a></li>
+            <li><a href="index-2.html#about">About</a></li>
+            <li><a href="index-2.html#services">Services</a></li>
+            <li><a href="index-2.html#partners">Partners</a></li>
+            <li><a href="index-2.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn d-none d-sm-block" href="enrolment.html">Enroll Now</a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+<style>
+
+#applicationForm {
+    max-width: 650px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, white 0%, white 100%);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px  rgb(214, 173, 173);
+    border: 3px solid #5F3A42;
+    position: relative;
+    overflow: hidden;
+}
+
+#applicationForm::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#applicationForm .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+#applicationForm .form-row.full-width {
+    grid-template-columns: 1fr;
+}
+
+#applicationForm label {
+    display: block;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+    color: #5F3A42;
+    font-size: 1rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#applicationForm input,
+#applicationForm select {
+    width: 100%;
+    padding: 0.9rem;
+    border: 2px solid #5F3A42;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.95);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+/* Radio button styling */
+#applicationForm .radio-group {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+#applicationForm .radio-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+#applicationForm input[type="radio"] {
+    width: auto;
+    margin: 0;
+    transform: scale(1.2);
+    accent-color: #5F3A42;
+}
+
+#applicationForm .radio-option label {
+    margin: 0;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+#applicationForm input:focus,
+#applicationForm select:focus {
+    outline: none;
+    border-color: marooon;
+    box-shadow: 0 0 0 4px rgb(214, 173, 173);
+    background: white;
+    transform: translateY(-2px);
+}
+
+#applicationForm button {
+    grid-column: span 2;
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(135deg, #639973 0%, #639973 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgb(193, 206, 188);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#applicationForm button:hover {
+    background: linear-gradient(135deg, rgb(193, 206, 188)0%, rgb(193, 206, 188)100%);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgb(193, 206, 188);
+    color:#639973;
+}
+
+#applicationForm button:active {
+    transform: translateY(-1px);
+}
+
+#applicationForm button:disabled {
+    background: linear-gradient(135deg, #9ca3af 0%, #d1d5db 100%);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+#applicationForm input:invalid,
+#applicationForm select:invalid {
+    border-color: #5F3A42;
+    box-shadow: 0 0 0 2px rgb(214, 173, 173);
+}
+
+#applicationForm .form-row:last-of-type {
+    margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #applicationForm {
+        margin: 1rem;
+        padding: 2rem;
+    }
+    
+    #applicationForm .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    #applicationForm button {
+        grid-column: span 1;
+    }
+
+    #applicationForm .radio-group {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.form-title {
+    text-align: center;
+    color: #1977cc;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.form-container {
+    position: relative;
+}
+
+.form-subtitle {
+    text-align: center;
+    color: #5F3A42;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Add some decorative elements */
+#applicationForm::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+/* Input placeholder styling */
+#applicationForm input::placeholder {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+/* Select dropdown styling */
+#applicationForm select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fbbf24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+/* Disabled state styling */
+#applicationForm select:disabled {
+    background-color: rgba(209, 213, 219, 0.5);
+    color: #9ca3af;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Success/Error message styling */
+.message {
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.message.success {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    border: 2px solid #047857;
+}
+
+.message.error {
+    background: linear-gradient(135deg, #5F3A42 0%, #5F3A42 100%);
+    color: white;
+    border: 2px solid #5F3A42;
+}
+</style>
+<div class="form-container">
+        
+       <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSddACC82GHIfiqbIQOw5kxkhIdfiptyvFJLwbtO8xABWb-ooA/viewform?embedded=true"  
+        width="100%" 
+        height="4600" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0">
+        Loading…
+    </iframe>
+  
+</div>
+
+
+<footer id="footer" class="footer light-background">
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 footer-hours">
+        <h4>Opening Hours</h4>
+        <div class="hours-list">
+          <div class="d-flex justify-content-between mb-2">
+            <span>Monday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Tuesday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Wednesday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Thursday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Friday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Saturday</span>
+            <span>8:30am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Sunday</span>
+            <span>8:30am - 5:00pm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">Pinnade</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+
+    </div>
+  </div>
+<script async src='../d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+<script>
+  var wa_btnSetting = {
+    "btnColor":"#16BE45",                 // Button color (green by default)
+    "ctaText":"WhatsApp Us",              // Button text
+    "cornerRadius":40,                    // Rounded corners
+    "marginBottom":100,                   // Distance from bottom
+    "marginLeft":20,                      // Distance from left (if position is left)
+    "marginRight":20,                     // Distance from right (if position is right)
+    "btnPosition":"right",                // Position: right or left
+    "whatsAppNumber":"254741542259",      // <<< Your WhatsApp number here
+    "welcomeMessage":"Hi, Thank you for visiting Pinnade. My name is Jonah, how may I be of assistance?", 
+    "zIndex":999999,
+    "btnColorScheme":"light"
+  };
+
+  window.onload = () => {
+    _waEmbed(wa_btnSetting);
+  };
+</script>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+
+</html>

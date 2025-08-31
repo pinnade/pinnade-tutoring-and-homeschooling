@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pinnade Tutoring and Homeschooling - Best Homeschool & Tuition Centre | IGCSE, A-Level, CBC, IB Programs</title>
+  <meta name="description" content="Leading homeschool and tuition centre offering IGCSE, A-Level, CBC, IB programs. Expert tutoring for Cambridge, Edexcel, KCSE, KCPE exams. Quality education tailored for success.">
+  <meta name="keywords" content="homeschool, tuition centre, IGCSE tutoring, A-level tuition, CBC curriculum, IB diploma, Cambridge exams, Edexcel, KCSE, KCPE, private tutoring, online learning">
+
+  <!-- Favicons -->
+  <link href="assets/img/log.jpg" rel="icon">
+  <link href="assets/img/log.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/" rel="preconnect">
+  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+/*
+    .icon-box-orange {
+      background: linear-gradient(135deg, #ff9500, #ffb347);
+      color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(255, 149, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+    
+    .icon-box-pink {
+      background: linear-gradient(135deg, #e91e63, #f06292);
+      color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(233, 30, 99, 0.2);
+      transition: all 0.3s ease;
+    }
+    
+    .icon-box-blue {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(30, 58, 138, 0.2);
+      transition: all 0.3s ease;
+    }
+    
+    .icon-box-orange:hover,
+    .icon-box-pink:hover,
+    .icon-box-blue:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    }
+    
+    .icon-box-orange i,
+    .icon-box-pink i,
+    .icon-box-blue i {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      display: block;
+    }
+    
+    .icon-box-orange h4,
+    .icon-box-pink h4,
+    .icon-box-blue h4 {
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+*/
+    /* Enhanced welcome section visibility */
+    .welcome {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px #5F3A42;
+      margin-bottom: 30px;
+    }
+    
+    .welcome h3 {
+      color: #5F3A42 !important;
+      font-weight: 500;
+      text-shadow: none;
+    }
+    
+    .welcome p {
+      color: #5F3A42 !important;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    /* Button styling */
+    .more-btn {
+      color: #fff;
+      background: linear-gradient(135deg, #3498db, #2980b9);
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin-right: 15px;
+    }
+    
+    .more-btn:hover {
+      background: linear-gradient(135deg, #2980b9, #21618c);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+      color: #fff;
+    }
+
+    .enroll-btn {
+      color: #fff;
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    
+    .enroll-btn:hover {
+      background: linear-gradient(135deg, #c0392b, #a93226);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+      color: #fff;
+    }
+
+    /* Fixed Logo Styling - Clean approach 
+    .logo img {
+      width: 100px !important;
+      height: 100px !important;
+      object-fit: contain;
+      align-items: center;
+    }*/
+
+    Logo text styling with different colors */
+   .logo h2.sitename {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .logo h2.sitename .brand-pinnade {
+      color: lab(24.59% 46.97 36.84 / 0.493); 
+    }
+
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .logo img {
+        width: 60px !important;
+        height: 60px !important;
+      }
+      
+      .logo h2.sitename {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="index-page">
+<header id="header" class="header sticky-top">
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index-2.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/log.jpg" alt="pinnade logo">
+          <h1 class="sitename" style="color: #5F3A42;">Pinnade</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index-2.html#home">Home<br></a></li>
+            <li><a href="index-2.html#about">About</a></li>
+            <li><a href="index-2.html#services">Services</a></li>
+            <li><a href="index-2.html#partners">Partners</a></li>
+            <li><a href="index-2.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn d-none d-sm-block" href="enrolment.html">Enroll Now</a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <main class="main">
+<!-- Hero Section -->
+<section id="hero" class="hero section text-white d-flex align-items-center">
+  <div class="overlay"></div>
+  <div class="waves"></div>
+
+  <div class="container position-relative text-center" data-aos="fade-down" data-aos-delay="100">
+    <div class="welcome mb-4">
+      <h1 class="mb-3">Welcome to <span class="highlight">Pinnade Tutoring & Homeschooling</span></h1>
+      <p class="lead">Affordable, reliable, and tailored tutoring to help every student succeed.</p>
+    </div>
+
+    <div class="hero-buttons mt-4">
+      <a href="#about" class="btn btn-light me-3"><i class="bi bi-chevron-right"></i> Learn More</a>
+      <a href="enrolment.html#appointment" class="btn btn-warning"><i class="bi bi-person-plus"></i> Enroll Now</a>
+    </div>
+
+    <!-- Program Highlights -->
+    <div class="row gy-4 mt-5">
+      <div class="col-md-4">
+        <div class="program-card" data-aos="zoom-out" data-aos-delay="200">
+          <i class="bi bi-award"></i>
+          <h4>IGCSE & Cambridge</h4>
+          <p>Expert tutoring for IGCSE, Edexcel, and entrance exams with proven results.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="program-card" data-aos="zoom-out" data-aos-delay="300">
+          <i class="bi bi-mortarboard"></i>
+          <h4>A-Level & IB Excellence</h4>
+          <p>Comprehensive prep for Cambridge A-Level, MYP, and IB Diploma programs.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="program-card" data-aos="zoom-out" data-aos-delay="400">
+          <i class="bi bi-book"></i>
+          <h4>CBC & Local Curriculum</h4>
+          <p>Private tutoring for KCSE, KCPE, CBC, and 8-4-4 systems with guaranteed success.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* Hero Section */
+.hero {
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+  background: url('assets/img/bbg.jpg') center/cover no-repeat;;
+}
+
+.hero .container {
+  z-index: 3;
+  position: relative;
+}
+
+/* Welcome Message */
+.hero .welcome {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.hero .welcome h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5F3A42; /* Maroon theme */
+}
+
+.hero .welcome p {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 600px;
+  margin: 10px auto 0;
+}
+
+/* Program Cards */
+.program-card {
+  flex: 1;
+  background: #5F3A42;
+  color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 250px; /* Equal height desktop */
+}
+
+.program-card i {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  display: block;
+  color: #FFD166; /* Accent color */
+}
+
+.program-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Animated Background */
+.animated-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(120deg, rgba(95,58,66,0.1), rgba(95,58,66,0.2));
+  background-size: 200% 200%;
+  animation: moveBg 12s ease-in-out infinite;
+}
+
+@keyframes moveBg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero .welcome h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero .welcome p {
+    font-size: 1rem;
+  }
+
+  .program-card {
+    min-height: auto; /* flexible on phones */
+    margin-bottom: 20px;
+  }
+}
+
+</style>
+
+<!-- About Section -->
+<section id="about" class="about section">
+  <div class="container">
+    <div class="row gy-4 gx-5">
+      <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/img/PT.png" class="img-fluid" alt="Pinnade Tutoring and Homeschooling">
+      </div>
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+        <h3>Why Homeschooling?</h3>
+        <p>
+           Pinnade Tutoring and Homeschooling provides comprehensive IGCSE, A-Level, CBC, and IB programs tailored for learners of all ages. We meet the rising demand in Kenya for quality homeschooling and personalized tutoring, combining expert guidance with a focus on academic excellence and personal development.        </p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-home"></i>
+            <div>
+              <h5>Peaceful learning environment with reduced pressure</h5>
+              <p>Create a stress-free atmosphere where students can learn at their own pace without external pressures</p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <h5>Flexible pacing tailored to your child's needs</h5>
+              <p>Customized learning schedules that adapt to each student's learning style and academic requirements</p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-brain"></i>
+            <div>
+              <h5>Optimized study hours for better productivity</h5>
+              <p>Strategic time management and focused learning sessions that maximize academic achievement and retention</p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-star"></i>
+            <div>
+              <h5>Personalized curriculum that builds on strengths</h5>
+              <p>Individual learning plans designed to enhance each student's unique abilities and academic potential</p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-gamepad"></i>
+            <div>
+              <h5>More time for extracurricular activities</h5>
+              <p>Balanced education approach allowing students to pursue hobbies, sports, and creative interests alongside academics</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section><!-- /About Section -->
+
+<!-- Stats Section -->
+<section id="services" class="stats section light-background">
+    <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>We offer expert tutoring for IGCSE, IB, and CBC students, led by top educators from Kenya’s leading universities:</p>
+      </div><!-- End Section Title -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+        <div class="stats-card text-center p-4 bg-white rounded shadow-sm h-100" style="border-top: 4px solid #5F3A42;">
+          <div class="stats-icon mb-3">
+            <i class="fa-solid fa-school" style="font-size: 3rem; color: #5F3A42;"></i>
+          </div>
+          <h4 style="color: #2c3e50; font-weight: 600;">In-Center Tuition</h4>
+          <p style="color: #6c757d; margin-bottom: 20px;">
+            Our center is open for in-person learning with strict adherence to health and safety guidelines, providing a structured learning environment.
+          </p>
+          <a href="enrolment.html#appointment" class="btn" style="background-color: #5F3A42; color: white; padding: 10px 25px; border-radius: 25px; text-decoration: none; font-weight: 500;">Admission</a>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+        <div class="stats-card text-center p-4 bg-white rounded shadow-sm h-100" style="border-top: 4px solid #5F3A42;">
+          <div class="stats-icon mb-3">
+            <i class="fa-solid fa-laptop" style="font-size: 3rem; color: #5F3A42;"></i>
+          </div>
+          <h4 style="color: #2c3e50; font-weight: 600;">Online Tuition</h4>
+          <p style="color: #6c757d; margin-bottom: 20px;">
+            We offer online lessons for all subjects from grade 4 to 13, well-monitored to ensure your child gets maximum educational benefits.
+          </p>
+          <a href="enrolment.html#appointment" class="btn" style="background-color: #5F3A42; color: white; padding: 10px 25px; border-radius: 25px; text-decoration: none; font-weight: 500;">Admission</a>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+        <div class="stats-card text-center p-4 bg-white rounded shadow-sm h-100" style="border-top: 4px solid #5F3A42;">
+          <div class="stats-icon mb-3">
+            <i class="fa-solid fa-home-user" style="font-size: 3rem; color: #5F3A42;"></i>
+          </div>
+          <h4 style="color: #2c3e50; font-weight: 600;">Home Tutoring</h4>
+          <p style="color: #6c757d; margin-bottom: 20px;">
+            Get well-trained tutors to teach your children at home. We carefully select tutors according to your specific requirements and preferences.
+          </p>
+          <a href="enrolment.html#appointment" class="btn" style="background-color: #5F3A42; color: white; padding: 10px 25px; border-radius: 25px; text-decoration: none; font-weight: 500;">Admission</a>
+        </div>
+      </div><!-- End Stats Item -->
+    </div>
+  </div>
+</section><!-- /Stats Section -->
+
+<style>
+.stats-card {
+  transition: all 0.3s ease;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1) !important;
+}
+
+.stats-card .btn:hover {
+  background-color: #5F3A42!important;
+  transform: scale(1.05);
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.about ul li i {
+  color: #5F3A42;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.about ul li div h5 {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.about ul li div p {
+  color: #6c757d;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.about h3 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #6c757d;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+</style>
+
+<!-- Examination Partners Section -->
+<section id="partners" class="doctors section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Examination Partners</h2>
+    <p>We are proud to be authorized partners with leading international examination boards and educational institutions</p>
+  </div><!-- End Section Title -->
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/CAIE-Logo.png" class="img-fluid" alt="Cambridge Assessment International Education"></div>
+          <div class="member-info">
+            <h4>Cambridge Assessment International Education</h4>
+            <span>IGCSE & A-Level Programs</span>
+            <p>World-renowned Cambridge IGCSE and A-Level qualifications providing students with excellent preparation for university and employment</p>
+          </div>
+        </div>
+      </div><!-- End Partner -->
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/PLogo_Horizontal_Edexcel_200x188.png" class="img-fluid" alt="Pearson Edexcel"></div>
+          <div class="member-info">
+            <h4>Pearson Edexcel</h4>
+            <span>International GCSE & A-Level</span>
+            <p>Leading provider of internationally recognized qualifications with flexible assessment options and comprehensive curriculum support</p>
+          </div>
+        </div>
+      </div><!-- End Partner -->
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/dp-programme-logo-en.png" class="img-fluid" alt="IB Diploma Programme"></div>
+          <div class="member-info">
+            <h4>International Baccalaureate</h4>
+            <span>IB Diploma Programme</span>
+            <p>Prestigious international qualification that develops critical thinking and prepares students for success at top universities worldwide</p>
+          </div>
+        </div>
+      </div><!-- End Partner -->
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/ib-myp-colour-en.png" class="img-fluid" alt="IB Middle Years Programme"></div>
+          <div class="member-info">
+            <h4>IB Middle Years Programme</h4>
+            <span>Ages 11-16 International Curriculum</span>
+            <p>Comprehensive framework that encourages students to make practical connections between their studies and the real world</p>
+          </div>
+        </div>
+      </div><!-- End Partner -->
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/new_logo_knec-2.png" class="img-fluid" alt="Kenya National Examinations Council"></div>
+          <div class="member-info">
+            <h4>Kenya National Examinations Council</h4>
+            <span>KCPE, KCSE & CBC</span>
+            <p>Official examination body for Kenya's national curriculum including KCPE, KCSE, and the new Competency-Based Curriculum (CBC)</p>
+          </div>
+        </div>
+      </div><!-- End Partner -->
+    </div>
+  </div>
+</section><!-- /Examination Partners Section -->
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to enroll? Get in touch with Pinnade Tutoring & Homeschooling today.</p>
+  </div><!-- End Section Title -->
+
+  <!-- Google Map -->
+  <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+    <iframe style="border:0; width: 100%; height: 270px;" 
+    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d127642.92554791401!2d36.72308382308237!3d-1.2679271847425124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swestpark%20langata!5e0!3m2!1sen!2ske!4v1755671375202!5m2!1sen!2ske"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div><!-- End Google Maps -->
+
+ <section id="contact" class="contact">
+  <div class="container">
+    <div class="row no-gutters d-flex align-items-start">
+
+      <!-- Left column -->
+      <div class="col-lg-4 col-md-12 d-flex flex-column">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location</h4>
+            <p>Westpark, Langata, Nairobi</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call Us</h4>
+            <p>+254 741 542 259</p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email Us</h4>
+            <p>jonahotagoro@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column -->
+      <div class="col-lg-8 col-md-12 d-flex flex-column">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf4RjyODNrpkUc9ZWwfgIzbAJ2_rQra3X5-k1a5x5QHZFU6Ig/viewform?embedded=true"
+          style="width:100%; min-height:950px; border:none;" frameborder="0" marginheight="0" marginwidth="0" width="640">
+          Loading…
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</section><!-- End Contact Section -->
+
+
+  </main>
+
+<script async src='../d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+<script>
+  var wa_btnSetting = {
+    "btnColor":"#16BE45",                 // Button color (green by default)
+    "ctaText":"WhatsApp Us",              // Button text
+    "cornerRadius":40,                    // Rounded corners
+    "marginBottom":100,                   // Distance from bottom
+    "marginLeft":20,                      // Distance from left (if position is left)
+    "marginRight":20,                     // Distance from right (if position is right)
+    "btnPosition":"right",                // Position: right or left
+    "whatsAppNumber":"254741542259",      // <<< Your WhatsApp number here
+    "welcomeMessage":"Hi, Thank you for visiting Pinnade. My name is Jonah, how may I be of assistance?", 
+    "zIndex":999999,
+    "btnColorScheme":"light"
+  };
+
+  window.onload = () => {
+    _waEmbed(wa_btnSetting);
+  };
+</script>
+
+
+<footer id="footer" class="footer light-background">
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 footer-hours">
+        <h4>Opening Hours</h4>
+        <div class="hours-list">
+          <div class="d-flex justify-content-between mb-2">
+            <span>Monday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Tuesday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Wednesday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Thursday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Friday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Saturday</span>
+            <span>8:00am - 5:00pm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">Pinnade</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+
+    </div>
+  </div>
+</footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
