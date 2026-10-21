@@ -720,6 +720,30 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+<!-- Preloader safety fallback -->
+<script>
+(function () {
+  function hidePreloader() {
+    var preloader = document.getElementById('preloader');
+
+    if (preloader) {
+      preloader.classList.add('preloader-hidden');
+
+      window.setTimeout(function () {
+        if (preloader.parentNode) {
+          preloader.parentNode.removeChild(preloader);
+        }
+      }, 700);
+    }
+  }
+
+  // Hide the preloader when the page finishes loading.
+  window.addEventListener('load', hidePreloader);
+
+  // Fallback if external resources or scripts take too long.
+  window.setTimeout(hidePreloader, 4000);
+})();
+</script>
 </body>
 
 </html>
